@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { requestForegroundPermissionsAsync, getCurrentPositionAsync, reverseGeocodeAsync } from "expo-location";
 import axios from "axios";
 
-const API_KEY = "5fce6b40d5831fc0d7bd5e10192c6c27";
+const API_KEY = "";
 const screenWidth = Dimensions.get('window').width;
 
 export default function App() {
